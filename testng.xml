@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG-Suite" parallel="classes" thread-count="8"> 
+	<test name="TestNG- Chrome Test"> 
+		<parameter name="UserName" value="abc1234" />
+		<parameter name="Password" value="pwd1234" />
+		<parameter name="Browser" value="chrome"/>
+		<classes>
+			<class name="testngselenium2.GoogleSearchSelenium2"/>
+			
+			<class name="testngselenium.GoogleSearchSelenium"/>
+		</classes>
+	</test>	
+	<test name="TestNG- Firefox Test"> 
+		<parameter name="UserName" value="abc1234" />
+		<parameter name="Password" value="pwd1234" />
+		<parameter name="Browser" value="firefox"/>
+		<classes>
+			<class name="testngselenium2.GoogleSearchSelenium2"/>
+		
+			<class name="testngselenium.GoogleSearchSelenium"/>
+		</classes>
+	
+		<!--  
+		<packages>
+			<package name=".*" />
+		</packages>
+		-->
+
+		<!-- <groups> <run> <include name="fruits"/> </run> </groups> <classes> 
+			<class name="testngtests.TestNGAnnotations"/> <class name="testngtests.TestNGAssertions"/> 
+			<class name="testngtests.TestNGDependencyTest"/> <class name="testngtests.TestNGPrioritizingTests"/> 
+			<class name="testngtests.TestNGGroups"/> </classes> -->
+	</test>
+</suite>

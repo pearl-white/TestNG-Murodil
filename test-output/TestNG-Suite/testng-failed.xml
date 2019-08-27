@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG-Suite]">
+  <test name="TestNG-Test(failed)">
+    <parameter name="UserName" value="abc1234"/>
+    <parameter name="Password" value="pwd1234"/>
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="testngselenium.GoogleSearchSelenium">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="googleSearch"/>
+        </methods>
+      </class> <!-- testngselenium.GoogleSearchSelenium -->
+    </classes>
+  </test> <!-- TestNG-Test(failed) -->
+</suite> <!-- Failed suite [TestNG-Suite] -->

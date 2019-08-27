@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG-Suite" duration-ms="11621" started-at="2017-04-20T02:10:48Z" finished-at="2017-04-20T02:10:59Z">
+    <groups>
+    </groups>
+    <test name="TestNG- Chrome Test" duration-ms="4815" started-at="2017-04-20T02:10:48Z" finished-at="2017-04-20T02:10:52Z">
+      <class name="testngselenium2.GoogleSearchSelenium2">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testngselenium2.GoogleSearchSelenium2@4883b407]" name="setUp" is-config="true" duration-ms="1748" started-at="2017-04-19T22:10:48Z" finished-at="2017-04-19T22:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:testngselenium2.GoogleSearchSelenium2@4883b407]" name="googleSearch" duration-ms="2978" started-at="2017-04-19T22:10:49Z" finished-at="2017-04-19T22:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngselenium2.GoogleSearchSelenium2@4883b407]" name="tearDown" is-config="true" duration-ms="71" started-at="2017-04-19T22:10:52Z" finished-at="2017-04-19T22:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngselenium2.GoogleSearchSelenium2 -->
+      <class name="testngselenium.GoogleSearchSelenium">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testngselenium.GoogleSearchSelenium@7d9d1a19]" name="setUp" is-config="true" duration-ms="1748" started-at="2017-04-19T22:10:48Z" finished-at="2017-04-19T22:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:testngselenium.GoogleSearchSelenium@7d9d1a19]" name="googleSearch" duration-ms="2456" started-at="2017-04-19T22:10:49Z" finished-at="2017-04-19T22:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngselenium.GoogleSearchSelenium@7d9d1a19]" name="tearDown" is-config="true" duration-ms="74" started-at="2017-04-19T22:10:52Z" finished-at="2017-04-19T22:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngselenium.GoogleSearchSelenium -->
+    </test> <!-- TestNG- Chrome Test -->
+    <test name="TestNG- Firefox Test" duration-ms="6790" started-at="2017-04-20T02:10:52Z" finished-at="2017-04-20T02:10:59Z">
+      <class name="testngselenium2.GoogleSearchSelenium2">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testngselenium2.GoogleSearchSelenium2@6500df86]" name="setUp" is-config="true" duration-ms="3040" started-at="2017-04-19T22:10:52Z" finished-at="2017-04-19T22:10:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:testngselenium2.GoogleSearchSelenium2@6500df86]" name="googleSearch" duration-ms="3619" started-at="2017-04-19T22:10:55Z" finished-at="2017-04-19T22:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngselenium2.GoogleSearchSelenium2@6500df86]" name="tearDown" is-config="true" duration-ms="125" started-at="2017-04-19T22:10:59Z" finished-at="2017-04-19T22:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngselenium2.GoogleSearchSelenium2 -->
+      <class name="testngselenium.GoogleSearchSelenium">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testngselenium.GoogleSearchSelenium@402a079c]" name="setUp" is-config="true" duration-ms="3129" started-at="2017-04-19T22:10:52Z" finished-at="2017-04-19T22:10:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:testngselenium.GoogleSearchSelenium@402a079c]" name="googleSearch" duration-ms="3382" started-at="2017-04-19T22:10:55Z" finished-at="2017-04-19T22:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngselenium.GoogleSearchSelenium@402a079c]" name="tearDown" is-config="true" duration-ms="135" started-at="2017-04-19T22:10:59Z" finished-at="2017-04-19T22:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngselenium.GoogleSearchSelenium -->
+    </test> <!-- TestNG- Firefox Test -->
+  </suite> <!-- TestNG-Suite -->
+</testng-results>
